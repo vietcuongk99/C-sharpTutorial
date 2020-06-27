@@ -6,7 +6,13 @@ namespace C_sharpTutorial
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            string name = "Dinh Viet Cuong";
+            
+            Console.WriteLine("Hello");
+            Console.WriteLine("What's your name ?");
+            Console.WriteLine("My name is " + name + ". " +  "How are you ?");
+            Console.WriteLine("I am fine, thanks.");
         }
     }
 }
