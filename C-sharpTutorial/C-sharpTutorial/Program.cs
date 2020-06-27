@@ -7,20 +7,17 @@ namespace C_sharpTutorial
         static void Main(string[] args)
         {
 
-            string name = "Dinh Viet Cuong";
-            char grade = 'A';
-            int number = 39;
-            int age = 21;
-            double gpa = 2.95;
-            bool isMale = true;
+            string phrase = "Dinh Viet Cuong " + "is Uet-er";
+                          
+            Console.WriteLine(phrase.Length);
+            Console.WriteLine(phrase.ToLower());
+            Console.WriteLine(phrase.ToUpper());
+            Console.WriteLine(phrase.Contains("viet"));
+            Console.WriteLine(phrase.Contains("Cuong "));
+            Console.WriteLine(phrase[phrase.Length - 8]);
+            Console.WriteLine(phrase.IndexOf("Cuong"));
+            Console.WriteLine(phrase.Substring(8, 10));
 
-            
-            Console.WriteLine(name);
-            Console.WriteLine(grade);
-            Console.WriteLine(number);
-            Console.WriteLine(age);
-            Console.WriteLine(gpa);
-            Console.WriteLine(isMale);
         }
     }
 }
