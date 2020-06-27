@@ -1,0 +1,13 @@
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.exe
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.deps.json
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.runtimeconfig.json
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.runtimeconfig.dev.json
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.dll
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\bin\Debug\netcoreapp3.1\C-sharpTutorial.pdb
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.csprojAssemblyReference.cache
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.AssemblyInfoInputs.cache
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.AssemblyInfo.cs
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.csproj.CoreCompileInputs.cache
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.dll
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.pdb
+H:\project clone\C-sharpTutorial\C-sharpTutorial\C-sharpTutorial\obj\Debug\netcoreapp3.1\C-sharpTutorial.genruntimeconfig.cache
