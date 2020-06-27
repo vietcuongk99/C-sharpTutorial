@@ -8,11 +8,19 @@ namespace C_sharpTutorial
         {
 
             string name = "Dinh Viet Cuong";
+            char grade = 'A';
+            int number = 39;
+            int age = 21;
+            double gpa = 2.95;
+            bool isMale = true;
+
             
-            Console.WriteLine("Hello");
-            Console.WriteLine("What's your name ?");
-            Console.WriteLine("My name is " + name + ". " +  "How are you ?");
-            Console.WriteLine("I am fine, thanks.");
+            Console.WriteLine(name);
+            Console.WriteLine(grade);
+            Console.WriteLine(number);
+            Console.WriteLine(age);
+            Console.WriteLine(gpa);
+            Console.WriteLine(isMale);
         }
     }
 }
