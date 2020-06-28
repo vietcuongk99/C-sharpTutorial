@@ -6,17 +6,26 @@ namespace C_sharpTutorial
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Enter your number you want to show: ");
 
-            int number = int.Parse(Console.ReadLine());
+            int num = Convert.ToInt32("12");
 
-            Console.WriteLine("Enter your quote you like: ");
+            Console.WriteLine(num + 12);
 
-            string quote = Console.ReadLine();
 
-            Console.WriteLine(number + "\n" + quote);
-            
+            Console.WriteLine("Enter a number: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter another number: ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Total " + (num1 + num2));
+
+            Console.WriteLine("Enter a number: ");
+            double num3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter another number: ");
+            double num4 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Total " + (num3 + num4));
+
         }
 
     }
