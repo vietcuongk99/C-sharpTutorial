@@ -6,20 +6,17 @@ namespace C_sharpTutorial
     {
         static void Main(string[] args)
         {
+            
+            Console.WriteLine("Enter your number you want to show: ");
 
-            int number = 6;
-            number++;
-            number--;
+            int number = int.Parse(Console.ReadLine());
 
-            Console.WriteLine( 10 - 2 );
-            Console.WriteLine( 5 % 2 );
-            Console.WriteLine(10 + 2 * 3);
-            Console.WriteLine(11.55555);
-            Console.WriteLine((10 - 2) * 2);
-            Console.WriteLine(5.0 / 2);
-            Console.WriteLine(number);
-            Console.WriteLine(Math.Abs(-400000.555));
-            Console.WriteLine(Math.Round(20.222222));
+            Console.WriteLine("Enter your quote you like: ");
+
+            string quote = Console.ReadLine();
+
+            Console.WriteLine(number + "\n" + quote);
+            
         }
 
     }
