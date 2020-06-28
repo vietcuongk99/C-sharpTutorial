@@ -10,14 +10,15 @@ namespace C_sharpTutorial
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
 
-            getTotal(num1, num2);
+            Console.WriteLine(getTotal(num1, num2));
 
 
         }
 
-        static void getTotal(int num1, int num2)
+        static int getTotal(int num1, int num2)
         {
-            Console.WriteLine(num1 + num2);
+            int total = num1 + num2;
+            return total;
         }
 
     }
