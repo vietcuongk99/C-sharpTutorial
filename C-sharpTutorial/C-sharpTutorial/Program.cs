@@ -7,17 +7,20 @@ namespace C_sharpTutorial
         static void Main(string[] args)
         {
 
-            string phrase = "Dinh Viet Cuong " + "is Uet-er";
-                          
-            Console.WriteLine(phrase.Length);
-            Console.WriteLine(phrase.ToLower());
-            Console.WriteLine(phrase.ToUpper());
-            Console.WriteLine(phrase.Contains("viet"));
-            Console.WriteLine(phrase.Contains("Cuong "));
-            Console.WriteLine(phrase[phrase.Length - 8]);
-            Console.WriteLine(phrase.IndexOf("Cuong"));
-            Console.WriteLine(phrase.Substring(8, 10));
+            int number = 6;
+            number++;
+            number--;
 
+            Console.WriteLine( 10 - 2 );
+            Console.WriteLine( 5 % 2 );
+            Console.WriteLine(10 + 2 * 3);
+            Console.WriteLine(11.55555);
+            Console.WriteLine((10 - 2) * 2);
+            Console.WriteLine(5.0 / 2);
+            Console.WriteLine(number);
+            Console.WriteLine(Math.Abs(-400000.555));
+            Console.WriteLine(Math.Round(20.222222));
         }
+
     }
 }
