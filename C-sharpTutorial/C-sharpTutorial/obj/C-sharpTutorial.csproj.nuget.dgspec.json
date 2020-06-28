@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\project clone\\c-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj": {}
+    "H:\\project clone\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj": {}
   },
   "projects": {
-    "H:\\project clone\\c-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj": {
+    "H:\\project clone\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\project clone\\c-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj",
+        "projectUniqueName": "H:\\project clone\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj",
         "projectName": "C-sharpTutorial",
-        "projectPath": "H:\\project clone\\c-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj",
+        "projectPath": "H:\\project clone\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "H:\\project clone\\c-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\obj\\",
+        "outputPath": "H:\\project clone\\C-sharpTutorial\\C-sharpTutorial\\C-sharpTutorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
