@@ -7,20 +7,17 @@ namespace C_sharpTutorial
         
         static void Main(string[] args)
         {
-           
-            int[] luckyNumbers = { 1, 2, 3, 4 };
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
-            int index = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(luckyNumbers[index]);
+            getTotal(num1, num2);
 
-            string[] friends = new string[10];
-            friends[0] = "Dung";
-            friends[2] = "Duong";
-            Console.WriteLine(friends[0]);
-            Console.WriteLine(friends[2]);
 
-            Console.ReadLine();
+        }
 
+        static void getTotal(int num1, int num2)
+        {
+            Console.WriteLine(num1 + num2);
         }
 
     }
