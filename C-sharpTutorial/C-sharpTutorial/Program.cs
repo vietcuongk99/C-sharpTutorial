@@ -4,27 +4,22 @@ namespace C_sharpTutorial
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+           
+            int[] luckyNumbers = { 1, 2, 3, 4 };
 
-            int num = Convert.ToInt32("12");
+            int index = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(luckyNumbers[index]);
 
-            Console.WriteLine(num + 12);
+            string[] friends = new string[10];
+            friends[0] = "Dung";
+            friends[2] = "Duong";
+            Console.WriteLine(friends[0]);
+            Console.WriteLine(friends[2]);
 
-
-            Console.WriteLine("Enter a number: ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter another number: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Total " + (num1 + num2));
-
-            Console.WriteLine("Enter a number: ");
-            double num3 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter another number: ");
-            double num4 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Total " + (num3 + num4));
+            Console.ReadLine();
 
         }
 
