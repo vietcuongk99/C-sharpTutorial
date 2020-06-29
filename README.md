@@ -1,2 +1,2 @@
 # C-sharpTutorial
-tự học C# trên freeCodeCamp
+tự học C# trên kênh Youtube của freeCodeCamp
