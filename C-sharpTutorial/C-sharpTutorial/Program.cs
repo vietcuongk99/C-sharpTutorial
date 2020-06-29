@@ -15,11 +15,7 @@ namespace C_sharpTutorial
                 Console.WriteLine("One of two inputs is negative integer");
                 Console.WriteLine(getTotal(num1, num2));
             } 
-            else if (num1 > 0 && num2 > 0)
-            {
-                Console.WriteLine("Two inputs are positive integer");
-                Console.WriteLine(getTotal(num1, num2));
-            }
+  
             else
             {
                 Console.WriteLine(getTotal(num1, num2));
