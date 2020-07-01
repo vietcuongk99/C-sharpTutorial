@@ -7,44 +7,25 @@ namespace C_sharpTutorial
         
         static void Main(string[] args)
         {
-            int num;
-            num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(getDay(num));
-        }
-
-        static string getDay(int dayNum)
-        {
-            string dayName;
-            switch(dayNum)
+            int index1 = 1;
+            int index2 = 6;
+            
+            while (index1 <= 5)
             {
-             
-                case 1:
-                    dayName = "Sunday";
-                    break;
-                case 2:
-                    dayName = "Monday";
-                    break;
-                case 3:
-                    dayName = "Tuesday";
-                    break;
-                case 4:
-                    dayName = "Wednesday";
-                    break;
-                case 5:
-                    dayName = "Thursday";
-                    break;
-                case 6:
-                    dayName = "Friday";
-                    break;
-                case 7:
-                    dayName = "Saturday";
-                    break;
-                default:
-                    dayName = "Invalid Day Number";
-                    break;
+                Console.WriteLine(index1);
+                index1++;
             }
-            return dayName;
+
+
+            do
+            {
+                Console.WriteLine(index2);
+                index2++;
+            } while (index2 <= 5);
+
+
         }
+       
 
     }
 }
