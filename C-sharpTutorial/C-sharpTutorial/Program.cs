@@ -7,21 +7,38 @@ namespace C_sharpTutorial
         
         static void Main(string[] args)
         {
-            int index1 = 1;
-            int index2 = 6;
-            
-            while (index1 <= 5)
+            string secretWord = "cuong";
+            string guess = "";
+            int guessCount = 0;
+            int guessLimit = 5;
+            bool outofGuesses = false;
+
+            while (guess != secretWord && !outofGuesses)
             {
-                Console.WriteLine(index1);
-                index1++;
+                if (guessCount < guessLimit)
+                {
+                    Console.WriteLine("Enter guess: ");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else
+                {
+                    outofGuesses = true;
+                }
+                
+
             }
 
-
-            do
+            if(outofGuesses)
             {
-                Console.WriteLine(index2);
-                index2++;
-            } while (index2 <= 5);
+                Console.Write("You lose!");
+            }
+            else
+            {
+                Console.Write("You win!");
+            }
+
+            
 
 
         }
