@@ -4,38 +4,19 @@ namespace C_sharpTutorial
 {
     class Program
     {
-        
+            
         static void Main(string[] args)
         {
-            string secretWord = "cuong";
-            string guess = "";
-            int guessCount = 0;
-            int guessLimit = 5;
-            bool outofGuesses = false;
-
-            while (guess != secretWord && !outofGuesses)
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++)
             {
-                if (guessCount < guessLimit)
-                {
-                    Console.WriteLine("Enter guess: ");
-                    guess = Console.ReadLine();
-                    guessCount++;
-                }
-                else
-                {
-                    outofGuesses = true;
-                }
-                
-
+                arr[i] = Convert.ToInt32(Console.ReadLine());
             }
-
-            if(outofGuesses)
+            
+            for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write("You lose!");
-            }
-            else
-            {
-                Console.Write("You win!");
+                Console.WriteLine(arr[i]);
             }
 
             
