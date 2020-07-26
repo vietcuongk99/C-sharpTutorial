@@ -18,9 +18,11 @@ namespace C_sharpTutorial
             book2.author = Console.ReadLine();
             book2.pages = Convert.ToInt32(Console.ReadLine());
 
+            book1.Type = "novel";
 
-            Console.WriteLine(book1.title + '\n' + book2.title);
+            Console.WriteLine(book1.title + '\n' + book2.title + '\n'+ book1.Type);
 
+            Console.WriteLine(book1.HasTitle());
            
         }
        
