@@ -7,21 +7,21 @@ namespace C_sharpTutorial
             
         static void Main(string[] args)
         {
-            int n = Convert.ToInt32(Console.ReadLine());
-            int[] arr = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                arr[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            
-            for (int i = 0; i < arr.Length; i++)
-            {
-                Console.WriteLine(arr[i]);
-            }
+            Book book1 = new Book();
+            Book book2 = new Book();
 
-            
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
+
+            book2.title = Console.ReadLine();
+            book2.author = Console.ReadLine();
+            book2.pages = Convert.ToInt32(Console.ReadLine());
 
 
+            Console.WriteLine(book1.title + '\n' + book2.title);
+
+           
         }
        
 
